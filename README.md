@@ -8,11 +8,10 @@ This is a short study guide created with the guidance of the prework module for 
 Click the button to randomly select a topic to study
 
 ## Future Features
-Update the random function to not select the section that it's currently on.  
+- Update the random function to not select the section that it's currently on.  
+- Have each section under the main topics open up from drop down menus to save space.
+- Create a function WITHIN the topics that allows you to change subjects/sections
 
-## Credits
-
-All aspects of the project were basically following along with a tutorial included in the pre-work portion of the bootcamp.  
 
 ## License
 
