@@ -17,7 +17,7 @@
     </header>
     <main>
       <section class="card" id="html-section">
-        <h2>HTML</h2>
+        <h1>HTML</h1>
         <!-- forms? forms... -->
         <ul>
           <li>The head element contains information about the webpage.  The contents inside are usually not visible (aside from the title)</li>
@@ -28,7 +28,21 @@
       </section>
    
       <section class="card" id="css-section">
-        <h2>CSS</h2>
+        <h1>CSS</h1>
+        <section class="subject">
+          <h3>Positioning</h3>
+          <ul>
+            <h4>position: static;</h4>
+              <li>Default Value.  Properties have no effect, and element is positioned according to the normal flow of the document.</li>
+            <h4>position: relative;</h4>
+              <li>The element is positioned according to the normal flow of the document, and then offset <em>relative to itself</em> based on the values of top, right, bottom, and left properties.  The offset does not affect the position of any other elements, so the space given for the element prior to being moved is as if the position were static.</li>
+            <h4>position: absolute;</h4>
+              <li>The element is removed from the normal document flow, and no space is created for the element in the page layout. The element is positioned relative to its closest positioned ancestor (if any) or to the initial containing block. Its final position is determined by the values of top, right, bottom, and left.</li>
+            <h4>position: fixed;</h4>
+              <li>The element is removed from the normal document flow, and no space is created for the element in the page layout. The element is positioned relative to its initial containing block, which is the viewport in the case of visual media. Its final position is determined by the values of top, right, bottom, and left.</li>
+            </ul>
+        </section>
+
         <!-- enter position related notes -->
         <!-- flexbox cheatsheet (link or basics) -->
 
@@ -40,7 +54,7 @@
       </section>
    
       <section class="card" id="git-section">
-        <h2>Git (Go on.... git)</h2>
+        <h1>Git (Go on.... git)</h1>
         <!-- Steps to initialize a repo from local  -->
         <ul>
           <li><b>NEVER</b> work off of the main branch.  Always create a seperate branch.</li>
@@ -58,7 +72,7 @@
       </section>
    
       <section class="card" id="javascript-section">
-        <h2>Javascript</h2>
+        <h1>Javascript</h1>
           <ul>
             <li>A variable is a named container that allows us to store data in our code.</li>
             <li>Control flow is the order in which a computer executes code in a script.</li>
