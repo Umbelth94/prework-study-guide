@@ -6,9 +6,10 @@
 header,
 footer{
     width: 100%;
-    height: 120px;
+    height: 220px;
     background-color:blue;
     color:white;
+    text-align:center;
 }
 
 h1,
@@ -47,4 +48,18 @@ p{
     width:90%;
     border: 6px solid blue;
     box-shadow: 7px 14px rgb(11, 11, 132);
+}
+
+button{
+    height:40px;
+    width:200px;
+    margin:15px;
+    border-radius:15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+button:active{
+    height:38px;
+    width:198px;
+    
 }
