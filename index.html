@@ -19,16 +19,29 @@
       <section class="card" id="html-section">
         <h1>HTML</h1>
         <!-- forms? forms... -->
-        <ul>
-          <li>The head element contains information about the webpage.  The contents inside are usually not visible (aside from the title)</li>
-          <li>The body element represents the visible content shown to the user.</li>
-          <li>Focus on using the proper elements for the job so that the page is more accessible for screen readers and other assisted browsing technologies.</li>
-          <li>Use the class and id attributes to provide pointers for CSS and JS to reference</li>
-        </ul>
+        <section class="subject">
+          <ul>
+            <li>The head element contains information about the webpage.  The contents inside are usually not visible (aside from the title)</li>
+            <li>The body element represents the visible content shown to the user.</li>
+            <li>Focus on using the proper elements for the job so that the page is more accessible for screen readers and other assisted browsing technologies.</li>
+            <li>Use the class and id attributes to provide pointers for CSS and JS to reference</li>
+          </ul>
+        </section>
       </section>
-   
+      
+      <!-- CSS SECTION -->
       <section class="card" id="css-section">
         <h1>CSS</h1>
+        <section class="subject">
+          <h3>Basics</h3>
+        <ul>
+            <li>Multiple elements can be targeted at once.  Useful for making changes to certain elements that you want to have sharing styles.</li>
+            <li>* is used to select EVERY element.  Use sparingly</li>
+            <li>Using a seperate file for your style sheet is best practice when working on large projects, as it keeps all the CSS in one place and means you will have to do less work to make changes acrossed the entire project.</li>
+            <!-- Talk about how to link a style sheet here -->
+          </ul>
+        </section>
+      
         <section class="subject">
           <h3>Positioning</h3>
           <ul>
@@ -41,42 +54,43 @@
             <h4>position: fixed;</h4>
               <li>The element is removed from the normal document flow, and no space is created for the element in the page layout. The element is positioned relative to its initial containing block, which is the viewport in the case of visual media. Its final position is determined by the values of top, right, bottom, and left.</li>
             </ul>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">MDN Link to Positioning</a>
         </section>
-
-        <!-- enter position related notes -->
         <!-- flexbox cheatsheet (link or basics) -->
-
-        <ul>
-          <li>Multiple elements can be targeted at once.  Useful for making changes to certain elements that you want to have sharing styles.</li>
-          <li>* is used to select EVERY element.  Use sparingly</li>
-          <li>Using a seperate file for your style sheet is best practice when working on large projects, as it keeps all the CSS in one place and means you will have to do less work to make changes acrossed the entire project.</li>
-        </ul>
       </section>
-   
-      <section class="card" id="git-section">
+     
+      <!-- GIT SECTION -->
+        <section class="card" id="git-section">
         <h1>Git (Go on.... git)</h1>
+        <section class="subject">
+          <h3>Basics</h3>
+          <ul>
+            <li><b>NEVER</b> work off of the main branch.  Always create a seperate branch.</li>
+            <ol>
+              <ul>Workflow goes like this: (Type these into terminal)</ul>
+              <li>Git Pull origin main (Creates an up to date local copy of the main branch)</li>
+              <li>Git checkout -b nameOfNewBranch (Creates and switches you to new branch)</li>
+              <li>Do your work on this new branch</li>
+              <li>git add . (the . adds all of the current directory to the staging area to be commited)</li>
+              <li>Git commit -m message for what you did(Save your work, and do this often)</li>
+              <li>Git push (Pushes your saved copy to the branch on github) </li>
+              <li>On github, create a pull request and then merge</li>
+            </ol>
+          </ul>
+        </section>
         <!-- Steps to initialize a repo from local  -->
-        <ul>
-          <li><b>NEVER</b> work off of the main branch.  Always create a seperate branch.</li>
-          <ol>
-            <ul>Workflow goes like this: (Type these into terminal)</ul>
-            <li>Git Pull origin main (Creates an up to date local copy of the main branch)</li>
-            <li>Git checkout -b nameOfNewBranch (Creates and switches you to new branch)</li>
-            <li>Do your work on this new branch</li>
-            <li>git add . (the . adds all of the current directory to the staging area to be commited)</li>
-            <li>Git commit -m message for what you did(Save your work, and do this often)</li>
-            <li>Git push (Pushes your saved copy to the branch on github) </li>
-            <li>On github, create a pull request and then merge</li>
-          </ol>
-        </ul>
+        <!-- Steps to linking an SSH key -->
       </section>
    
       <section class="card" id="javascript-section">
         <h1>Javascript</h1>
-          <ul>
-            <li>A variable is a named container that allows us to store data in our code.</li>
-            <li>Control flow is the order in which a computer executes code in a script.</li>
-          </ul>
+          <section class="subject">
+            <h3>Basics</h3>
+            <ul>
+              <li>A variable is a named container that allows us to store data in our code.</li>
+              <li>Control flow is the order in which a computer executes code in a script.</li>
+            </ul>
+          </section>
       </section>
     </main>
 
