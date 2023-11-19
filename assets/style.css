@@ -42,3 +42,9 @@ p{
     box-shadow: 5px 10px #888888;
     padding:10px;
 }
+
+.selected{
+    width:90%;
+    border: 6px solid blue;
+    box-shadow: 7px 14px rgb(11, 11, 132);
+}
